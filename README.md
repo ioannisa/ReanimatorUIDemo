@@ -1,6 +1,8 @@
 # Reanimator Demo - Compose Multiplatform
 
 [![Reanimator Library](https://img.shields.io/badge/Library-Reanimator-blue)](https://github.com/ioannisa/reanimator)
+
+
 This repository contains a sample Compose Multiplatform application demonstrating the features of the [**Reanimator**](https://github.com/ioannisa/reanimator) library.
 
 ## Overview
