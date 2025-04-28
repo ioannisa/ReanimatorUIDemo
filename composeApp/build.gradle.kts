@@ -49,10 +49,12 @@ kotlin {
             // Navigation Library enables SavedStateHandle inside commonMain
             implementation(libs.jetbrains.compose.navigation)
 
+            implementation("eu.anifantakis:reanimator:0.0.14")
+
             // Serialization library to handle complex data types for SavedStateHandle
             implementation(libs.kotlinx.serialization.json)
 
-            implementation("eu.anifantakis:reanimator:1.0.0")
+
         }
     }
 }

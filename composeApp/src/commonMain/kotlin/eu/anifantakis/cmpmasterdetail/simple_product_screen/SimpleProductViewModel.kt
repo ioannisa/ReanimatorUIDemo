@@ -32,10 +32,10 @@ sealed interface SimpleProductIntent {
 
 // MVI ViewModel with SavedStateHandleUtils
 class SimpleProductViewModel(
-    private val savedStateHandle: SavedStateHandle
+    savedStateHandle: SavedStateHandle
 ) : ViewModel() {
     // Define which properties should reset after process death
-    private val transientProperties = listOf("isLoading", "errorMessage")
+    private val transientProperties = setOf("isLoading", "errorMessage")
 
     // State with automatic key inference and selective persistence
     private val _state by savedStateHandle.getMutableStateFlow(
